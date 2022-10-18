@@ -16,7 +16,7 @@
 
 
 let Name;
-console.log(Name);
+// console.log(Name);
 if (Name){
   console.log("condition is true");
 }

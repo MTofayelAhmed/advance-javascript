@@ -42,3 +42,5 @@ if (first == second){
 }
 else{console.log("condition is false")
 };
+
+// so javascript consider zero and false same. on the other hand, one and true equal.
