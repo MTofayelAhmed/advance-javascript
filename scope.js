@@ -28,13 +28,15 @@
 // console.log(result);
 
 
-function sum (first, second){
-  const total = first + second;
-  if(total>9){
-    const mood = "happy";
-    console.log(mood);
-  }
-  return total;
-  console.log(mood);
+// function sum (first, second){
+//   const total = first + second;
+//   if(total>9){
+//     const mood = "happy";
+//     console.log(mood);
+//   }
+//   return total;
+  // console.log(mood); error khabo
 
-}
+// var declare korle function read korar somoy  var
+//  er name part ta hosting kore function e niye jai. let or 
+//  const er somoy seta possible na

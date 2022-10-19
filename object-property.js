@@ -15,10 +15,10 @@ const students =
 // };
 // console.log(output);
 
-const nameArray = students.map(x => x.Name);
-console.log(nameArray);
-const studentIDS = students.map(x=> x.id);
-console.log(studentIDS);
-const bigger = students.filter( x => x.id>20 );
-console.log(bigger);
-const biggerOne = students.find(x=> x.id > 30 );
+// const nameArray = students.map(x => x.Name);
+// console.log(nameArray);
+// const studentIDS = students.map(x=> x.id);
+// console.log(studentIDS);
+// const bigger = students.filter( x => x.id>20 );
+// console.log(bigger);
+// const biggerOne = students.find(x=> x.id > 30 );
