@@ -20,13 +20,17 @@ const normalName = {
 
 
 const heroPerson = {
-  firstName: "alamin",
-  LastName: "raju",
+  firstName: "Alamin",
+  LastName: "Raju",
   salary: 25000,
-}
+};
 
-normalName.chargeBill.call(heroPerson, 1000, 100, 10);
+
+normalName.chargeBill.apply(heroPerson, [1000, 500, 50]);
 console.log(heroPerson.salary);
+
+// normalName.chargeBill.call(heroPerson, 1000, 100, 10);
+// console.log(heroPerson.salary);
 
 //  const heroChargeBill = normalName.chargeBill.bind(heroPerson);
 //  heroChargeBill(2000);
@@ -41,8 +45,13 @@ console.log(heroPerson.salary);
 
  };
 
- normalName.chargeBill.call(friendlyPerson,  1000, 500, 20);
+ normalName.chargeBill.apply(friendlyPerson, [4000, 1000, 100]);
  console.log(friendlyPerson.salary);
+
+//  normalName.chargeBill.call(friendlyPerson,  1000, 500, 20);
+//  console.log(friendlyPerson.salary);
+
+
 //  const friendlyChargeBill =  normalName.chargeBill.bind(friendlyPerson);
 //  friendlyChargeBill(10000);
 //  console.log(friendlyPerson.salary);
